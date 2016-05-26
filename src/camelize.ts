@@ -1,7 +1,7 @@
-export function hyphenToCamel(name) {
+export function hyphenToCamel(name :string) :string {
   return name.replace(/-([a-z])/g, g => g[1].toUpperCase());
 }
 
-export function namespaceToCamel(namespace, name) {
+export function namespaceToCamel(namespace :string, name :string) {
   return namespace + name.charAt(0).toUpperCase() + name.slice(1);
 }

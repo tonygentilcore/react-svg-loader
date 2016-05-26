@@ -1,4 +1,4 @@
-import Svgo from 'svgo';
+const Svgo = require('svgo');
 import {transform as babelTransform} from 'babel-core';
 import loaderUtils from 'loader-utils';
 
